@@ -10,7 +10,7 @@
 > SOLID 원칙
 <pre>
 SRP Single Responsibility 단일책임
-OCP Open Closed 개발폐쇄
+OCP Open Closed 개폐쇄
 LSP Liskov Substitusion 업캐스팅 안전
 ISP Interface Segregation 인터페이스 분리
 DIP Dependency Inversion 다운캐스팅금지
@@ -29,9 +29,11 @@ Law of demeter 최소 지식
 </pre>
 
 
-
-
-
+- Inversion of Control
+> 제어역전 실제 구현
+>
+전략 패턴 & 템플릿 메소드 패턴 < 컴포지트 패턴 < 비지터 패턴 <br>
+보다 넓은 범위의 제어 역전을 실행함
 
 
 ## Reference
