@@ -30,8 +30,8 @@ renderer.view = new class extends View{
     #el;
     getElement(data) {
         this.#el = document.createElement("div");
-        this.#el.innerHTML = '<h2>${data.title}</h2><p>${data.description}</p>';
-        this.#el.style.cssText = 'width:100%;background:${data.background}';
+        this.#el.innerHTML = `<h2>${data.title}</h2><p>${data.description}</p>`;
+        this.#el.style.cssText = `width:100%;background:${data.background}`;
         return this.#el;
     }
     initAni() {
@@ -40,7 +40,7 @@ renderer.view = new class extends View{
         style.transition = "all 0.3s";
     }
     startAni() {
-        requestAnimationFrame(_=>this.#el.style.marginLeft = 0)
+        requestAnimationFrame(_ => this.#el.style.marginLeft = 0)
     }
 };
 
