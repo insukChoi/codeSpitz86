@@ -35,6 +35,15 @@ Law of demeter 최소 지식
 전략 패턴 & 템플릿 메소드 패턴 < 컴포지트 패턴 < 비지터 패턴 <br>
 보다 넓은 범위의 제어 역전을 실행함
 
+<br>
+<br>
+
+### Week 2
+MVVM 패턴
+- Model, View, ViewModel + Binder
+
+
+
 
 ## Reference
 - https://www.facebook.com/groups/codespitz/
